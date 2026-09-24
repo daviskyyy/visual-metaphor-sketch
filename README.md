@@ -1,10 +1,16 @@
 # 一图胜千言 · Visual Metaphor Sketch
 
 
+
+
 把一句观点、一个段落或一种抽象关系，转成极简、无字的视觉隐喻插图。适合公众号正文配图、概念解释和需要一眼看出差异的对照画面。
 
 
+
+
 ## 能做什么
+
+
 
 
 - 先从观点中找出可以画出来的物理关系，再提出 2–3 个不同隐喻。
@@ -14,37 +20,38 @@
 - 查看成图，并在手机正文宽度检查画面能否独立读懂。
 
 
+
+
 ## 使用
 
 
-仓库公开后，可安装到支持 Agent Skills 的工具：
+
+
+安装到支持 Agent Skills 的工具：
+
+
 
 
 ```bash
-npx skills add daiyingyi/visual-metaphor-sketch
+npx skills add daviskyyy/visual-metaphor-sketch
 ```
+
+
 
 
 然后直接描述观点和用途，例如：
 
 
+
+
 > 用一图胜千言画“保险降低一家三口生活的波动”：同一场风浪分别发生在没有缓冲和有缓冲的两侧，表现一家人的不同处境。不要在图中写字。
+
+
 
 
 > 只构思三种“父母共同承担照护”的视觉隐喻，先不要生成图片。
 
 
+
+
 Skill 会使用运行环境可用的图像生成工具。若只要求构思或提示词，它只提供构思或提示词。精确数值、坐标与排版文字应交给 SVG/HTML 等精确绘制工具。
-
-
-## 文件
-
-
-- [SKILL.md](SKILL.md)：触发范围、工作流程、画面规则与检查方法。
-- [references/visual-grammar.md](references/visual-grammar.md)：视觉语法、隐喻选择和成图检查。
-- [assets/icon.svg](assets/icon.svg)：技能图标。
-- [agents/openai.yaml](agents/openai.yaml)：支持该配置的客户端所用的展示信息。
-
-
-本仓库暂未放入作品示例。参考图片仅用于提炼视觉原则，不随 Skill 分发。
-
