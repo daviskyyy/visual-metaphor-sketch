@@ -1,0 +1,14 @@
+interface:
+  display_name: 一图胜千言简笔画
+  short_description: Turn abstract ideas into spare visual-metaphor sketches.
+  default_prompt: Use $visual-metaphor-sketch to make an illustration of this idea,
+    without screenshot UI or the caption below.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
